@@ -17,11 +17,6 @@ const skills = [
   { name: "CSS", img: "/CSS.png" },
   { name: "Postman", img: "/Postman.png" },
 ];
-
-
-
-
-
   return (
     <section className="container py-5">
       <Row className="g-4">
