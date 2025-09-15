@@ -57,6 +57,12 @@ const skills = [
 
         {/* Card Github */}
         <Col md={6} lg={2}>
+         <a
+              href="https://github.com/MuhammadDiazGirgani"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none text-dark d-block"
+            >
             <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden d-flex align-items-center justify-content-center">
             <Image
               src="/github.svg"
@@ -66,10 +72,17 @@ const skills = [
                className="img-fluid p-3"
     />
           </Card>
+          </a>
         </Col>
 
         {/* Card Instagram */}
         <Col md={6} lg={2}>
+                <a
+              href="https://www.instagram.com/diazzgirgani_?igsh=MWJpNnVkMDVqendzMw=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none text-dark d-block"
+            >
             <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden d-flex align-items-center justify-content-center">
             <Image
               src="/instagram.svg"
@@ -79,6 +92,7 @@ const skills = [
                className="img-fluid p-3"
     />
           </Card>
+          </a>
         </Col>
 
         {/* Card Skills */}
@@ -107,6 +121,12 @@ const skills = [
 
 {/* Card LinkedIn */}
 <Col md={6} lg={2}>
+ <a
+              href="https://www.linkedin.com/in/muhammad-diaz-girgani-6439b5259/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none text-dark d-block"
+            >
   <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden d-flex align-items-center justify-content-center">
     <Image
       src="/linkedin.svg"
@@ -116,10 +136,17 @@ const skills = [
       className="img-fluid p-3"
     />
   </Card>
+  </a>
 </Col>
 
 {/* Card Spotify */}
 <Col md={6} lg={2}>
+ <a
+              href="https://open.spotify.com/user/31su46py5dylpldggwfpegar2bau"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none text-dark d-block"
+            >
   <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden d-flex align-items-center justify-content-center">
     <Image
       src="/spotify.svg"
@@ -129,6 +156,7 @@ const skills = [
       className="img-fluid p-3"
     />
   </Card>
+  </a>
 </Col>
 
          {/* Hero Card */}
