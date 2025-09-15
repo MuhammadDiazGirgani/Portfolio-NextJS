@@ -4,19 +4,20 @@ import Button from "react-bootstrap/Button";
 
 export default function Home() {
 const skills = [
-  { name: "JavaScript", img: "javascript.png" },
-  { name: "ReactJS", img: "reactjs.png" },
-  { name: "TypeScript", img: "typescript.png" },
-  { name: "NextJS", img: "nextjs.png" },
-  { name: "MongoDB", img: "mongodb.png" },
-  { name: "NodeJS", img: "nodejs.png" },
-  { name: "Bootstrap", img: "bootstrap.png" },
-  { name: "Tailwind", img: "tailwind.png" },
-  { name: "ReactBootstrap", img: "reactbootstrap.png" },
-  { name: "HTML", img: "html.png" },
-  { name: "CSS", img: "css.png" },
-  { name: "Postman", img: "postman.png" },
+  { name: "JavaScript", img: "/Javascript.png" },
+  { name: "ReactJS", img: "/ReactJS.png" },
+  { name: "TypeScript", img: "/Typescript.png" },
+  { name: "NextJS", img: "/NextJS.png" },
+  { name: "MongoDB", img: "/MongoDB.png" },
+  { name: "NodeJS", img: "/NodeJS.png" },
+  { name: "Bootstrap", img: "/Bootstrap.png" },
+  { name: "Tailwind", img: "/Tailwind.png" },
+  { name: "ReactBootstrap", img: "/ReactBootstrap.png" },
+  { name: "HTML", img: "/HTML.png" },
+  { name: "CSS", img: "/CSS.png" },
+  { name: "Postman", img: "/Postman.png" },
 ];
+
 
 
 
