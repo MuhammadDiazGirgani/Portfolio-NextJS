@@ -106,12 +106,14 @@ const skills = [
                   <Col key={i} md={3} sm={6} xs={6}>
                     <div>
                       <Image
-                        src={s.img}
-                        alt={s.name}
-                        width={70}
-                        height={70}
-                        className="mx-auto mb-2"
-                      />
+  src={s.img}
+  alt={s.name}
+  width={70}
+  height={70}
+  className="mx-auto mb-2"
+  unoptimized
+/>
+
                     </div>
                   </Col>
                 ))}
