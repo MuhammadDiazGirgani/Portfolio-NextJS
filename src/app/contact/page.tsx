@@ -1,11 +1,11 @@
 import PortfolioNavbar from "@/components/Navbar";
-import Hero from "@/components/Home";
+import Contact from "@/components/Contact";
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <main>
       <PortfolioNavbar />
-      <Hero />
+      <Contact/>
     </main>
   );
 }
